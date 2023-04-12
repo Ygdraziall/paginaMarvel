@@ -1,0 +1,30 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --marvel-color: #ed1d24;
+}
+
+.font-sourceSans{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+@font-face {
+    font-family:'fuentemarvel';
+    src: url('/src/fonts/TiltWarp-Regular-VariableFont_XROTYROT.ttf');
+}
+
+.banner{
+    font-family: 'fuentemarvel';
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    filter: drop-shadow(1px 8px 5px black );
+    -webkit-filter: drop-shadow(1px 8px 5px black);
+}
