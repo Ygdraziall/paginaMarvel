@@ -14,17 +14,44 @@
 
 }
 
-@font-face {
+@font-face {    
     font-family:'fuentemarvel';
     src: url('/src/fonts/TiltWarp-Regular-VariableFont_XROTYROT.ttf');
 }
 
 .banner{
-    font-family: 'fuentemarvel';
+    right: 0;
+    bottom: 0;
+    padding: 2em;
     color: white;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    font-family: 'fuentemarvel';
     filter: drop-shadow(1px 8px 5px black );
     -webkit-filter: drop-shadow(1px 8px 5px black);
+
+}
+
+div>nav>ul>li>a:hover{
+    color: var(--marvel-color);
+    animation: navBarItem 1s ease-in;
+    -webkit-animation:  navBarItem 1s ease-in;
+}
+
+.link>a:hover{
+    color: var(--marvel-color);
+    animation: navBarItem 1s ease-in;
+    -webkit-animation:  navBarItem 1s ease-in;
+}
+
+@keyframes navBarItem{
+    0%
+    {
+        color: white;
+        opacity: 30%;
+    }
+
+    100%
+    {
+        opacity: 100%;
+    }
 }
