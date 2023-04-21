@@ -32,7 +32,13 @@
 }
 
 div>nav>ul>li>a:hover{
-    color: var(--marvel-color);
+    color: #ed1d24;
+    animation: navBarItem 1s ease-in;
+    -webkit-animation:  navBarItem 1s ease-in
+}
+
+div>nav>ul>li>button>b:hover{
+    color: #ed1d24;
     animation: navBarItem 1s ease-in;
     -webkit-animation:  navBarItem 1s ease-in;
 }
